@@ -1,0 +1,51 @@
+Python 3.7.2 (tags/v3.7.2:9a3ffc0492, Dec 23 2018, 22:20:52) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> for v in range(2019,2119):
+	if v % 4 ==0:
+		print(v)
+
+		
+2020
+2024
+2028
+2032
+2036
+2040
+2044
+2048
+2052
+2056
+2060
+2064
+2068
+2072
+2076
+2080
+2084
+2088
+2092
+2096
+2100
+2104
+2108
+2112
+2116
+>>> student1={"name":"Veronica Njeri","yob":1998}
+>>> student2={"name":"Alice Kairu","yob":2000}
+>>> student3={"name":"Evans Khal","yob":1996}
+>>> student4={"name":"Susan Moraa","yob":1999}
+>>> student5={"name":"Robert Cheruiyot","yob":2001}
+>>> students=[student1,student2,student3,student4,student5]
+>>> students
+[{'name': 'Veronica Njeri', 'yob': 1998}, {'name': 'Alice Kairu', 'yob': 2000}, {'name': 'Evans Khal', 'yob': 1996}, {'name': 'Susan Moraa', 'yob': 1999}, {'name': 'Robert Cheruiyot', 'yob': 2001}]
+>>> for student in students:
+	days=(2019-student["yob"])*365
+	print("Hello {} you were born in {} ,therefore you are {} days old.".format(student["name"],student["yob"],days))
+
+	
+Hello Veronica Njeri you were born in 1998 ,therefore you are 7665 days old.
+Hello Alice Kairu you were born in 2000 ,therefore you are 6935 days old.
+Hello Evans Khal you were born in 1996 ,therefore you are 8395 days old.
+Hello Susan Moraa you were born in 1999 ,therefore you are 7300 days old.
+Hello Robert Cheruiyot you were born in 2001 ,therefore you are 6570 days old.
+>>> 
